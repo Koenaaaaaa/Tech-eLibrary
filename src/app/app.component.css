@@ -1,0 +1,25 @@
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    color: #fff;
+}
+.content .textbox {
+    position: relative;
+    max-width: 600px;}
+
+.column .imgbox img {
+    position: relative;
+    
+}
+span{
+    color:#3b8d99 ;
+
+}
+
+
+
+
