@@ -5,7 +5,7 @@ li, a, button {
     text-decoration: none;
 }
 span{
-    color:#6b6b83;
+    color:#212136;
 }
 .header {
     display: flex;
@@ -14,7 +14,7 @@ span{
     padding: 10px;
 }
 .logo {
-    color: rgb(255, 255, 255);
+    color: #3b8d99;
     cursor: pointer;
     margin-right: auto;
 
@@ -28,11 +28,11 @@ span{
 }
 .nav-bar li a {
     transition: all 0.3s ease 0s;
-
+    color: #3b8d99;
 
 }
 .nav-bar li a:hover {
-    color: #3b8d99;
+    color:#212136;
     
 } 
 button{

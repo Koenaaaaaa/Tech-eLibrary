@@ -1,3 +1,61 @@
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.header span{
+    color:#212136;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    color: #3b8d99;
+    cursor: pointer;
+    margin-right: auto;
+
+}
+.nav-bar {
+    list-style: none;
+}
+.nav-bar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-bar li a {
+    transition: all 0.3s ease 0s;
+    color: #3b8d99;
+
+}
+.nav-bar li a:hover {
+    color:#212136;
+    
+} 
+button{
+    padding: 9px 25px;
+    background-color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    
+
+}
+button:hover {
+    color: #fff;
+    background-color: #3b8d99;
+}
+
+
+
+
+
 .content{
     position: relative;
     width: 100%;
@@ -18,6 +76,21 @@
 span{
     color:#3b8d99 ;
 
+}
+.column-1 p{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.landing{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.our-team{
+    margin-top:70px;
+    background-color: #a6bcc4;
 }
 
 
