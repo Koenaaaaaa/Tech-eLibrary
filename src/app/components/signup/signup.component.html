@@ -1,0 +1,29 @@
+<mat-card-header>
+    <mat-toolbar class="toolbar">
+        <mat-card-title>Sign Up</mat-card-title>
+        <mat-icon>cancel</mat-icon>
+    </mat-toolbar>
+</mat-card-header>
+
+<mat-card-content>
+    <form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)">
+        <div class="container">
+            <mat-form-field>
+                <input type="text" name="firstName" ngModel matInput placeholder="First Name">
+            </mat-form-field>
+            <mat-form-field>
+                <input type="text" name="lastName" ngModel matInput placeholder="Last Name">
+            </mat-form-field>
+            <mat-form-field>
+                <input type="email" name="Email" ngModel matInput placeholder="Email">
+            </mat-form-field>
+            <mat-form-field>
+                <input type="password" name="Password" ngModel  matInput placeholder="password">
+            </mat-form-field>
+        </div>
+        <div class="btn">
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+    <p>Already have an account ? <a>click here to Log in </a></p>
+</mat-card-content>
